@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 *{
-
+    overflow-x: hidden;
 }
 
 body{
     background-color: teal;
     font-family: Montserrat;
-    margin: 0;
+    margin: 0 ;
+    padding: 0;
     width: 100vw;
     height: 100vh;
 }
 
 
-
+/* header & navbar */
 .header{
+    position: sticky;
     background-color: ivory;
 }
   
@@ -24,6 +26,7 @@ body{
 }
 
 nav{
+    
     margin: 0 10%;
     display: flex;
     justify-content: space-between;
@@ -44,3 +47,23 @@ nav{
 .header nav ul li a{
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+  }
+
+.box1{
+
+}
+
+.box2{
+    
+}
+
+.box3{
+
+}
+ 
+
+
+  
